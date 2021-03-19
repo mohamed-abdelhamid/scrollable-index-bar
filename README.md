@@ -1,16 +1,6 @@
 # scrollable_index_bar
 
-A new Flutter project.
+simple color palette Flutter app that helps provide better navigation experience within two related scrollable lists
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# quick video 
+[![Watch the video](https://user-images.githubusercontent.com/36401302/111789374-bf0c7200-88c9-11eb-9533-0a8dd3cf28c8.jpeg)](https://drive.google.com/file/d/14sZYEneP856pXhF1XpCx8RKlsVffU1Aj/view?usp=sharing)
