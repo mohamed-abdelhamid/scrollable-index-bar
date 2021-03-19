@@ -40,7 +40,7 @@ class NavigatorProvider extends ChangeNotifier{
     // calculate index of color type he is currently on
     // hint : index is for color type (6 indices), offset is for color degree (28 offsets)
     for (int i=1 ; i< colorCategories.values.length ;i++){
-      if(currentPixel < (indicator.getColorOffsets(i) * 150)) {
+      if(currentPixel < (indicator.getColorOffsets(i) * 150)) { // 150 is the height of the color card
         selectedTabIndex = i-1;
         break;
       }
@@ -53,7 +53,7 @@ class NavigatorProvider extends ChangeNotifier{
     if (selectedTabIndex != _prevSelectedIndex){
       // navigate to the {new} selected tab
       barController.animateTo(
-        (selectedTabIndex / 2).floorToDouble() * screenWidth,
+        (selectedTabIndex / 2).floorToDouble() * screenWidth, // a screen width has only two tabs
         duration: Duration(milliseconds: 50),
         curve: Curves.easeOut,
       );
